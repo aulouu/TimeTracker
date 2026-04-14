@@ -1,4 +1,4 @@
-package aulouu.timetracker.security;
+package aulouu.timetracker.security.service;
 
 import aulouu.timetracker.exception.UserNotFoundException;
 import aulouu.timetracker.repository.UserRepository;

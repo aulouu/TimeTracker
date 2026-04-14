@@ -1,5 +1,6 @@
 package aulouu.timetracker.dto.response;
 
+import aulouu.timetracker.model.Employee;
 import aulouu.timetracker.model.Task;
 import lombok.*;
 
@@ -12,8 +13,8 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class TimeRecordResponse {
     private Long id;
-    private Long employeeId;
-    private Task task;
+    private EmployeeResponse employee;
+    private TaskResponse task;
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     private String workDescription;
